@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>404 — Ups!</title>
+  <style>
+    body{
+      min-height:100vh;
+      margin:0;
+      background:linear-gradient(135deg,#ffeef7,#e0f7ff);
+      font-family:"Poppins",system-ui,sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#444;
+    }
+    .wrapper{
+      background:#fff;
+      padding:40px 28px;
+      border-radius:24px;
+      box-shadow:0 12px 36px rgba(0,0,0,.08);
+      max-width:480px;
+      width:90%;
+      text-align:center;
+      animation:pop .8s ease;
+    }
+    @keyframes pop{
+      0%{transform:scale(.9);opacity:0}
+      100%{transform:scale(1);opacity:1}
+    }
+    h1{font-size:1.8rem;margin:16px 0 12px;}
+    p{font-size:1rem;margin-bottom:22px;line-height:1.5;color:#555;}
+    img{
+      width:200px;height:200px;object-fit:cover;border-radius:50%;
+      box-shadow:0 8px 24px rgba(0,0,0,.1);
+      margin-bottom:18px;
+      transition:transform .4s ease;
+    }
+    img:hover{transform:scale(1.05) rotate(-3deg)}
+    a.button{
+      display:inline-block;
+      background:#ff7bbf;
+      color:#fff;
+      padding:12px 22px;
+      border-radius:14px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 20px rgba(255,123,191,.3);
+    }
+    a.button:hover{background:#ff5da7}
+    footer{margin-top:20px;font-size:.8rem;color:#888}
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Obraz pieska osadzony w base64 -->
+    <img src="https://cdn.discordapp.com/attachments/1416805303311142932/1416805864651624578/Pngtreecartoon_pug_dog_who_is_11089193.png?ex=68c82ec9&is=68c6dd49&hm=36c477d3b1a51bc71a782b502a385bcfaddb0e3fb646e8df5f274296a7d06cd8&"
+         alt="kicikici">
+    <h1>UPS! Zawartość której szukasz została usunięta lub nie istnieje...</h1>
+    <p>Sprawdź poprawność wpisanego linku i spróbuj ponownie!</p>
+    <a class="button" href="https://kvmvizpv.github.io/AllClass_PlanLekcji/">Wróć do strony głównej</a>
+    <footer>404 • Nie znaleziono strony</footer>
+  </div>
+</body>
+</html>
